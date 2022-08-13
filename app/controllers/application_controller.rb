@@ -9,8 +9,8 @@ class ApplicationController < Sinatra::Base
 
   post '/logs' do
     entry = Log.create(
-      entry: params[:journalEntry],
-      user_id: params[:userId]
+      entry: params[:entry],
+      user_id: params[:user_id]
     )
     entry.to_json
   end
