@@ -34,6 +34,13 @@ class ApplicationController < Sinatra::Base
     users.to_json
   end
 
+  post '/users' do
+    entry = User.create(
+      user_name: params[:user_name],
+    )
+    entry.to_json
+  end
+
   get "/" do
     { message: "Good luck with your project!" }.to_json
   end
