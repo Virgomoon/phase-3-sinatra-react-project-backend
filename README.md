@@ -2,6 +2,8 @@
 
 frontend repo found [here](https://github.com/Virgomoon/phase_3_project_frontend)
 
+https://github.com/Virgomoon/phase_3_project_frontend
+
 ## Learning Goals
 
 - Build a web basic API with Sinatra and Active Record to support a React
